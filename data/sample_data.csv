@@ -1,7 +1,23 @@
 
-
 import pandas as pd
 
 df = pd.read_csv("data/sample_data.csv-Sheet1(4)")
 print(df.head())
 
+Dataset Information
+-------------------
+Project: Loan Default Prediction AI
+
+The full dataset is too large to upload to GitHub. 
+It contains customer financial and demographic details used for predicting loan defaults.
+
+Full Dataset Download Link:
+https:https://docs.google.com/spreadsheets/d/1EZY7GlWWfAC3fH5oQMqKMidMEnUxwqjFvrjO-NnmI7k/edit?usp=sharing
+
+Notes:
+- A small placeholder CSV (sample_data.csv) is included in this folder with column headers only.
+- To use the full dataset, download it from the Google Drive link above and replace sample_data.csv or update the path in your scripts.
+- Scripts and notebooks in this repo are set to use the sample data for demonstration purposes.
+
+Column headers in sample_data.csv:
+Customer_ID, Age, Income, Loan_Amount, Loan_Term, Credit_Score, Default
