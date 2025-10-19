@@ -1,0 +1,27 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model and data
+*.joblib
+*.pkl
+*.zip
+data/
+outputs/logreg_pipeline.joblib
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
